@@ -30,6 +30,7 @@ def dataparse(raw):
     return data, labels
 datad, datal = dataparse(rawdata)
 
+#the following stack overflow question was used for syntax assistance
 #https://stackoverflow.com/questions/19482970/get-a-list-from-pandas-dataframe-column-headers
 
 headers = datad.columns.tolist()
